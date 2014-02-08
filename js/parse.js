@@ -50,7 +50,7 @@ Parse.initialize("gRgG6rXH59W6J19MrqWtiAWAdEGqjoZjEs0GsH6H", "viwxKM3bX10rDDpGpd
 		Parse.User.logIn(username, password, {
 			success: function(user) {
 
-				$.mobile.changePage('#home'{transition: 'flow', role: 'page'});
+				$.mobile.changePage('#home');
 
 				if (buildIt()) {
 					console.log("loaded build from success!");
