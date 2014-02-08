@@ -80,7 +80,7 @@
         
         <!--Splashscreen-->
 
-        <div data-role="page" id="splash"> 
+        <!--<div data-role="page" id="splash"> 
           <div class="splash">
             <img src="img/startup.png" alt="startup image" class="fullscreen"/>
 
@@ -97,7 +97,7 @@
                     });//]]>  
                 </script>
           </div>
-        </div>
+        </div>-->
 
 
 
@@ -141,15 +141,14 @@
                     
                         <p><a href="#home" data-transition="pop">Next</a></p>
                         
-
-                        <input type="submit" onclick="logIn()" data-inline="true" data-theme="a" value="Submit" />
+                        <button id="SignInBtn" data-theme="a" value="Submit"></button>
 
 
 
                     </center>
                 </form>
             
-                <!--<input type="submit" onclick="newPage()" data-inline="true" data-theme="a" value="Submit" />-->
+                
             </div>
 
         </div>
@@ -605,24 +604,6 @@
             <div data-role="content">
                 <img class="fullscreen"src="img/coming.jpg">
             </div>
-        </div>
-
-
-        <!--Login Error (Popup)-Try making this popup red in theme. -->
-        <div data-role="page" id="error">
-
-            <div data-theme="a" data-role="header" data-position="fixed">
-                <h3>
-                    Oops! Something went wrong.
-                </h3>
-            </div>
-
-            <div data-role="content" >
-                <!--List view here-->
-                <p>Your Username or Password was incorrect!</p>
-                <!--Error Image LOL--><center><img src="img/oops2.gif"></center>
-            </div>
-
         </div>
 
 
